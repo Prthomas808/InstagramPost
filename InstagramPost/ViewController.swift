@@ -11,16 +11,6 @@ class ViewController: UIViewController {
 
   let tableView = UITableView()
   
-  let albumImages: [UIImage] = [
-    UIImage(named: "DIL")!,
-    UIImage(named: "BDay")!,
-    UIImage(named: "IASF")!,
-    UIImage(named: "four")!,
-    UIImage(named: "SelfTitled")!,
-    UIImage(named: "Lemonade")!,
-    UIImage(named: "Renaissance")!
-  ]
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     title = "Instagram"
